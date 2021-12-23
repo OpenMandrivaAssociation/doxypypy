@@ -1,12 +1,12 @@
 %define debug_package %{nil}
-%define snapshot 20200910
+%define snapshot 20210123
 
 Name:		doxypypy
 Summary:	Doxygen filter for Python
 Version:	0.0.1
 Release:	%{?snapshot:0.%{snapshot}.}1
 Group:		Development/Tools
-Source0:	https://github.com/Feneric/doxypypy/archive/master.tar.gz
+Source0:	https://github.com/Feneric/doxypypy/archive/%{name}-master.tar.xz
 License:	MIT
 BuildRequires:	python
 BuildRequires:	python-setuptools
