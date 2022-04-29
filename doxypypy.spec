@@ -4,7 +4,7 @@
 Name:		doxypypy
 Summary:	Doxygen filter for Python
 Version:	0.0.1
-Release:	%{?snapshot:0.%{snapshot}.}1
+Release:	%{?snapshot:0.%{snapshot}.}2
 Group:		Development/Tools
 Source0:	https://github.com/Feneric/doxypypy/archive/%{name}-master.tar.xz
 License:	MIT
