@@ -3,8 +3,8 @@
 
 Name:		doxypypy
 Summary:	Doxygen filter for Python
-Version:	0.0.1
-Release:	%{?snapshot:0.%{snapshot}.}2
+Version:	0.8.8.7
+Release:	%{?snapshot:0.%{snapshot}.}1
 Group:		Development/Tools
 Source0:	https://github.com/Feneric/doxypypy/archive/%{name}-master.tar.xz
 License:	MIT
