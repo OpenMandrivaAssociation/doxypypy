@@ -4,12 +4,13 @@
 Name:		doxypypy
 Summary:	Doxygen filter for Python
 Version:	0.8.8.7
-Release:	%{?snapshot:0.%{snapshot}.}2
+Release:	%{?snapshot:0.%{snapshot}.}3
 Group:		Development/Tools
 Source0:	https://github.com/Feneric/doxypypy/archive/%{name}-master.tar.xz
 License:	MIT
 BuildRequires:	python
-BuildRequires:	python-setuptools
+BuildRequires:	pkgconfig(python3)
+BuildRequires:	python%{pyver}dist(setuptools)
 
 %description
 For now Doxygen has limited support for Python. It recognizes Python comments,
